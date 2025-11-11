@@ -1,0 +1,58 @@
+# SSH Keys
+*.pem
+*.key
+!opennebula_cloud.pub # Public key is safe to commit (reference only)
+
+# Credentials
+.env
+.env.local
+credentials.txt
+secrets.txt
+vault/
+
+# System Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Temporary Files
+*.tmp
+*.temp
+.cache/
+
+# Logs
+*.log
+*.err
+debug/
+
+# Backup Files
+*.backup
+*.bak
+*.old
+
+# OS Specific
+.AppleDouble
+.LSOverride
+
+# Dependencies (if applicable)
+node_modules/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Build Outputs
+dist/
+build/
+*.egg-info/
+
+# Local Configuration
+local-config/
+.local/
